@@ -33,7 +33,7 @@ body {
     border-color: transparent;
 }
 
-.leftside-div-js-no-display, .centerside-div-js-no-display, 
+.leftside-div-js-no-display, .centerside-div-js-no-display,
 .rightside-div-js-no-display  {
     display: none;
 }
@@ -60,13 +60,13 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     body {
         background-size: cover;
         overflow: hidden;
-        background-image: url(/Images/background-quiz-320x480.jpg);
+        background-image: url(../img/background-quiz-320x480.jpg);
     }
 
     .question {
@@ -75,7 +75,7 @@ and (max-device-width : 480px) {
 
     .leftside-answers, .centerside-answers, .rightside-answers {
         text-align: center;
-        padding-top: 70px; 
+        padding-top: 70px;
         font-size: 0.70rem;
         padding-right: 30px;
         line-height: 1.2;
@@ -127,7 +127,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     body {
         overflow-y: hidden;
-        background-image: url(/Images/background-quiz-1024x768.jpg);
+        background-image: url(../img/background-quiz-1024x768.jpg);
     }
 
     .question {
@@ -228,7 +228,7 @@ and (max-device-width: 1024px) {
 @media only screen
 and (min-width : 1224px) {
     body {
-        background-image: url(/Images/background-quiz-1224x920.jpg);
+        background-image: url(../img/background-quiz-1224x920.jpg);
         overflow-y: hidden;
     }
 
@@ -283,7 +283,7 @@ and (min-width : 1224px) {
     }
 }
 
-@media (display-mode: fullscreen) 
+@media (display-mode: fullscreen)
 and (min-width: 1224px) {
     .leftside-div, .centerside-div, .rightside-div {
         width: 315px;

@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/src/styles/quiz.css">
+    <link rel="stylesheet" href="../styles/quiz.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Orbitron:wght@500&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="imagem/png" href="/Images/Game-Controller-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/Game-Controller-icon.png">
     <title>Quiz 1 - Gamer Testing</title>
 </head>
 
@@ -17,7 +16,7 @@
         <p class="question">Quais destes jogos são exclusivos do ps4 ?</p>
     </header>
 
-    <div class="leftside-div">
+    <div class="leftside-div" onclick="handleAnswer('left', 'left')">
         <ul class="leftside-answers">
             <li>Until Dawn</li>
             <li>Bloodborne</li>
@@ -27,7 +26,7 @@
         </ul>
     </div>
 
-    <div class="centerside-div">
+    <div class="centerside-div" onclick="handleAnswer('center', 'left')">
         <ul class="centerside-answers">
             <li>Dota 2</li>
             <li>CS: GO</li>
@@ -37,7 +36,7 @@
         </ul>
     </div>
 
-    <div class="rightside-div">
+    <div class="rightside-div" onclick="handleAnswer('right', 'left')">
         <ul class="rightside-answers">
             <li>Black Desert</li>
             <li>Days Gone</li>

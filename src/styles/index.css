@@ -53,35 +53,35 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     body {
-        background-image: url(/Images/index_background3-320x480.jpg);
+        background-image: url(../img/index_background3-320x480.jpg);
     }
-    
+
     .introduction-h1 {
         letter-spacing: 0.5px;
         font-size: 1rem;
         top: 15px;
         margin-left: 10px;
     }
-    
-    
+
+
     .introduction-h1-2 {
         left: 5px;
         font-size: 0.778rem;
         top: 45px;
     }
-    
+
     .boldMessage {
         left: 70px;
         font-size: 0.4rem;
         top: 98px;
     }
-    
+
     .start-message {
         left: 225px;
         font-size: 0.3rem;
         top: 82px;
     }
-    
+
     .button_x {
         height: 19px;
         left: 197px;
@@ -94,39 +94,39 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     body {
-        background-image: url(/Images/index_background2-1024x768.jpg);
+        background-image: url(../img/index_background2-1024x768.jpg);
     }
-    
+
     .introduction-h1 {
         letter-spacing: 9px;
         font-size: 1.3rem;
         top: 40px;
         margin-left: 185px;
     }
-    
+
     .introduction-h1-2 {
         left: 20px;
         font-size: 1.33rem;
         top: 80px;
     }
-    
+
     .boldMessage {
         left: 380px;
         font-size: 0.6rem;
         top: 205px;
     }
-    
+
     .start-message {
         left: 637px;
         font-size: 0.55rem;
         top: 230px;
     }
-    
+
     .button_x {
         height: 28px;
         left: 596px;
         top: 261px;
-    }   
+    }
 }
 
 @media (display-mode: fullscreen)
@@ -140,85 +140,85 @@ and (max-device-width : 1024px) {
         font-size: 0.5rem;
         top: 280px;
     }
-    
+
     .button_x {
         height: 30px;
         left: 599px;
         top: 315px;
-    }      
+    }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
     body {
-        background-image: url(/Images/index_background2-1224x845.jpg);
+        background-image: url(../img/index_background2-1224x845.jpg);
     }
-    
+
     .introduction-h1 {
         letter-spacing: 9px;
         font-size: 1.6rem;
         top: 50px;
         margin-left: 250px;
     }
-    
+
     .introduction-h1-2 {
         left: 20px;
         font-size: 1.65rem;
         top: 110px;
     }
-    
+
     .boldMessage {
         left: 485px;
         font-size: 0.7rem;
         top: 280px;
     }
-    
+
     .start-message {
         left: 802px;
         font-size: 0.55rem;
         top: 330px;
     }
-    
+
     .button_x {
         height: 39px;
         left: 755px;
         top: 374px;
-    }   
+    }
 }
 
 @media (display-mode: fullscreen)
 and (min-width : 1224px) {
-    
-    
+
+
     .introduction-h1 {
         letter-spacing: 9px;
         font-size: 1.6rem;
         top: 50px;
         margin-left: 250px;
     }
-    
+
     .introduction-h1-2 {
         left: 20px;
         font-size: 1.65rem;
         top: 110px;
     }
-    
+
     .boldMessage {
         left: 485px;
         font-size: 0.7rem;
         top: 320px;
     }
-    
+
     .start-message {
         left: 802px;
         font-size: 0.55rem;
         top: 380px;
     }
-    
+
     .button_x {
         height: 43px;
         left: 754px;
         top: 428px;
-    }   
+    }
 }
