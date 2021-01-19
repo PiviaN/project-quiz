@@ -28,7 +28,7 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     body {
-        background-image: url(/img/gamer-boy-320x480.jpg);
+        background-image: url(../img/gamer-boy-320x480.jpg);
     }
 
     .finishMessageTop {
@@ -46,7 +46,7 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     body {
-        background-image: url(/img/gamer-boy-1024x768.jpg);
+        background-image: url(../img/gamer-boy-1024x768.jpg);
     }
 
     .finishMessageTop {
@@ -71,7 +71,7 @@ and (max-device-width: 1024px) {
 @media only screen
 and (min-width : 1224px) {
     body {
-        background-image: url(/img/gamer-boy-1280x720.jpg);
+        background-image: url(../img/gamer-boy-1280x720.jpg);
     }
 
     .finishMessageTop {

@@ -53,7 +53,7 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     body {
-        background-image: url(../img/index_background3-320x480.jpg);
+        background-image: url(/img/index_background3-320x480.jpg);
     }
 
     .introduction-h1 {

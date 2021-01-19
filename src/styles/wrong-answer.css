@@ -30,7 +30,7 @@ h1, p {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     body {
-        background-image: url(/img/scary-gamer-320x480.jpg);
+        background-image: url(../img/scary-gamer-320x480.jpg);
     }
 
     .redirectMessageBottom {
@@ -47,7 +47,7 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     body {
-        background-image: url(/img/scary-gamer-1024x768.jpg);
+        background-image: url(../img/scary-gamer-1024x768.jpg);
     }
 
     .redirectMessageBottom {
@@ -71,7 +71,7 @@ and (max-device-width: 1024px) {
 @media only screen
 and (min-width : 1224px) {
     body {
-        background-image: url(/img/scary-gamer-1224x960.jpg);
+        background-image: url(../img/scary-gamer-1224x960.jpg);
     }
 
     .redirectMessageBottom {
