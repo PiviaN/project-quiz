@@ -1,0 +1,92 @@
+body {
+    background-image: url(/Images/gamer-boy-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    background-position-x: center;
+}
+
+.finishMessageTop, .finishMessageBottom {
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.finishMessageTop {
+    color: #fff000;
+    font-size: 1rem;
+}
+
+.finishMessageBottom {
+    color: 	#F80000;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body {
+        background-image: url(/Images/gamer-boy-320x480.jpg);
+    }
+    
+    .finishMessageTop {
+        font-size: 0.7rem;
+    }
+    
+    .finishMessageBottom {
+        font-size: 0.9rem;
+        margin-top: 115%;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body {
+        background-image: url(/Images/gamer-boy-1024x768.jpg);
+    }
+    
+    .finishMessageTop {
+        font-size: 0.8rem;
+    }
+    
+    .finishMessageBottom {
+        font-size: 1.3rem;
+        margin-top: 57%;
+    }
+}
+
+@media (display-mode: fullscreen)
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .finishMessageBottom {
+        margin-top: 68%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    body {
+        background-image: url(/Images/gamer-boy-1280x720.jpg);
+    }
+    
+    .finishMessageTop {
+        font-size: 1rem;
+    }
+    
+    .finishMessageBottom {
+        font-size: 1.6rem;
+        margin-top: 62%;
+    }
+}
+
+@media (display-mode: fullscreen)
+and (min-width: 1224px) {
+    .finishMessageBottom {
+        margin-top: 72%;
+    }
+}

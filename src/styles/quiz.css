@@ -1,0 +1,325 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.question {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #FF8C00;
+}
+
+.leftside-div:hover, .centerside-div:hover, .rightside-div:hover {
+    opacity: 0.37;
+    background-color: rgb(78, 66, 66);
+    cursor: pointer;
+}
+
+.leftside-answers, .centerside-answers, .rightside-answers {
+    color: rgb(241, 241, 241);
+    font-family: 'Domine', serif;
+    list-style-type: none;
+}
+
+.leftside-div, .centerside-div, .rightside-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    border-style: ridge;
+    border-color: transparent;
+}
+
+.leftside-div-js-no-display, .centerside-div-js-no-display, 
+.rightside-div-js-no-display  {
+    display: none;
+}
+
+.leftside-div-js, .centerside-div-js, .rightside-div-js {
+    position: relative;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-style: ridge;
+}
+
+.leftside-div-js {
+    border-color: #fe4164;
+}
+
+.centerside-div-js {
+    border-color:#ffd800;
+}
+
+.rightside-div-js {
+    border-color: #AF69EF;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body {
+        background-size: cover;
+        overflow: hidden;
+        background-image: url(/Images/background-quiz-320x480.jpg);
+    }
+
+    .question {
+        font-size: 0.84rem;
+    }
+
+    .leftside-answers, .centerside-answers, .rightside-answers {
+        text-align: center;
+        padding-top: 70px; 
+        font-size: 0.70rem;
+        padding-right: 30px;
+        line-height: 1.2;
+        letter-spacing: 0.79px;
+    }
+
+    .leftside-div, .centerside-div, .rightside-div {
+        height: 270px;
+        width: 90px;
+    }
+
+    .leftside-div {
+        left: 12px;
+        top: 100px;
+    }
+
+    .centerside-div {
+        left: 115px;
+        top: -170px;
+    }
+
+    .rightside-div {
+        left: 217px;
+        top: -440px;
+    }
+
+    .leftside-div-js, .centerside-div-js, .rightside-div-js {
+        width: 80px;
+        height: 255px;
+        top: 90px;
+    }
+
+    .leftside-div-js {
+        left: 13px;
+    }
+
+    .centerside-div-js {
+        left: 111.9px;
+    }
+
+    .rightside-div-js {
+        left: 209.4px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body {
+        overflow-y: hidden;
+        background-image: url(/Images/background-quiz-1024x768.jpg);
+    }
+
+    .question {
+        font-size: 1.8rem;
+    }
+
+    .leftside-answers, .centerside-answers, .rightside-answers {
+        padding-top: 70px;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        letter-spacing: 2.5px;
+    }
+
+    .leftside-div, .centerside-div, .rightside-div {
+        height: 330px;
+        width: 253px;
+    }
+
+    .leftside-div {
+        left: 63px;
+        top: 125px;
+    }
+
+    .centerside-div {
+        left: 375px;
+        top: -212px;
+    }
+
+    .rightside-div {
+        left: 685px;
+        top: -547px;
+    }
+
+    .leftside-div-js, .centerside-div-js, .rightside-div-js {
+        width: 270px;
+        height: 347px;
+        top: 108px;
+        border-width: 10px;
+    }
+
+    .leftside-div-js {
+        left: 47px;
+    }
+
+    .centerside-div-js {
+        left: 358px;
+    }
+
+    .rightside-div-js {
+        left: 670px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (display-mode: fullscreen)
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .leftside-div, .centerside-div, .rightside-div {
+        height: 381px;
+        width: 252px;
+    }
+
+    .leftside-div {
+        top: 165px;
+        left: 63px;
+    }
+
+    .centerside-div {
+        left: 375px;
+        top: -224px;
+    }
+
+    .rightside-div {
+        left: 685px;
+        top: -610px;
+    }
+
+    .leftside-div-js, .centerside-div-js, .rightside-div-js {
+        width: 270px;
+        height: 395px;
+        top: 150px;
+    }
+
+    .leftside-div-js {
+        left: 45px;
+    }
+
+    .centerside-div-js {
+        left: 355px;
+    }
+
+    .rightside-div-js {
+        left: 670px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    body {
+        background-image: url(/Images/background-quiz-1224x920.jpg);
+        overflow-y: hidden;
+    }
+
+    .question {
+        font-size: 2.2rem;
+    }
+
+    .leftside-answers, .centerside-answers, .rightside-answers {
+        padding-top: 90px;
+        font-size: 1.37rem;
+        line-height: 1.7;
+        letter-spacing: 3px;
+    }
+
+    .leftside-div, .centerside-div, .rightside-div {
+        width: 315px;
+        height: 459px;
+    }
+
+    .leftside-div{
+        top: 190px;
+        left: 83px;
+    }
+
+    .centerside-div {
+        left: 470px;
+        top: -275px;
+    }
+
+    .rightside-div {
+        left: 860px;
+        top: -740px;
+    }
+
+    .leftside-div-js, .centerside-div-js, .rightside-div-js {
+        width: 337px;
+        height: 484px;
+        top: 167.4px;
+        border-width: 12px;
+    }
+
+    .leftside-div-js {
+        left: 64px;
+    }
+
+    .centerside-div-js {
+        left: 452px;
+    }
+
+    .rightside-div-js {
+        left: 840px;
+    }
+}
+
+@media (display-mode: fullscreen) 
+and (min-width: 1224px) {
+    .leftside-div, .centerside-div, .rightside-div {
+        width: 315px;
+        height: 510px;
+    }
+
+    .leftside-div {
+        top: 230px;
+    }
+
+    .centerside-div {
+        top: -285px;
+    }
+
+    .rightside-div {
+        top: -805px;
+        left: 860px;
+        height: 515px;
+    }
+
+    .leftside-div-js, .centerside-div-js, .rightside-div-js {
+        width: 334px;
+        height: 535px;
+        top: 210px;
+        border-width: 12px;
+    }
+
+    .leftside-div-js {
+        left: 64px;
+    }
+
+    .centerside-div-js {
+        left: 454px;
+    }
+
+    .rightside-div-js {
+        left: 840px;
+    }
+}

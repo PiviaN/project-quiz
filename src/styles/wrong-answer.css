@@ -1,0 +1,89 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+
+h1, p {
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+}
+
+.redirectMessageTop, .redirectMessageBottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.redirectMessageTop {
+    color: turquoise;
+}
+
+.redirectMessageBottom {
+    color: #228B22;
+    font-weight: 900;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body {
+        background-image: url(/Images/scary-gamer-320x480.jpg);
+    }
+
+    .redirectMessageBottom {
+        margin-top: 110%;
+    }
+    
+    h1, p {
+        font-size: 1.4rem;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body {
+        background-image: url(/Images/scary-gamer-1024x768.jpg);
+    }
+
+    .redirectMessageBottom {
+        margin-top: 45%;
+    }
+    
+    h1, p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (display-mode: fullscreen)
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .redirectMessageBottom {
+        margin-top: 56%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    body {
+        background-image: url(/Images/scary-gamer-1224x960.jpg);
+    }
+
+    .redirectMessageBottom {
+        margin-top: 53%;
+    }
+
+    h1, p { font-size: 3rem; }
+}
+
+@media (display-mode: fullscreen)
+and (min-width: 1224px) {
+    .redirectMessageBottom {
+        margin-top: 62%;
+    }
+}
