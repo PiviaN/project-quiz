@@ -1,7 +1,7 @@
 class Quiz {
   constructor(correctRedirection, incorrectRedirection) {
-    this.correctRedirection = "redirect(correctPage)";
-    this.incorrectRedirection = "redirect(incorrectPage)";
+    this.correctRedirection = redirect(correctPage);
+    this.incorrectRedirection = redirect(incorrectPage);
   }
 
   structure = [

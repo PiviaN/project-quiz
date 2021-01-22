@@ -7,6 +7,7 @@ class Auxiliary {
         this.$centerDiv = document.querySelector('.centerside-div');
         this.$rightDiv = document.querySelector('.rightside-div');
     }
+    
     redirect(firstPage, correctPage, incorrectPage) {
         firstPage = setTimeout(() => {
             window.location.href = "src/question/quiz1.html";
