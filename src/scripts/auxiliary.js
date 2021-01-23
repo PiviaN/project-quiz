@@ -1,23 +1,20 @@
 'use strict';
 
-class Auxiliary {
-  constructor($buttonX, $leftDiv, $centerDiv, $rightDiv) {
-    this.$buttonX = document.querySelector('.button_x');
-    this.$leftDiv = document.querySelector('.leftside-div');
-    this.$centerDiv = document.querySelector('.centerside-div');
-    this.$rightDiv = document.querySelector('.rightside-div');
+export default class Auxiliary {
+  redirect(path, sleep = 2000) {
+    setTimeout(() => {
+      window.location.href = path;
+    }, sleep);
   }
 
-  redirect(firstPage, correctPage, incorrectPage) {
-    firstPage = setTimeout(() => {
-      window.location.href = "src/question/quiz1.html";
-    }, 310);
-    correctPage = setTimeout(() => {
-      window.location.href = "right-answer.html";
-    }, 2000);
-    incorrectPage = setTimeout(() => {
-      window.location.href = "wrong-answer.html";
-    }, 2000);
+  get queryParams() {
+    let params = new URLSearchParams(window.location.href.split('?')[1])
+
+    const result = {}
+    for (const [key, value] of params.entries()) {
+      result[key] = value
+    }
+    return result
   }
 
   handleLeftAnswer() {
